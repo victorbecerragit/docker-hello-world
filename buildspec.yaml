@@ -2,8 +2,8 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      docker: 18
+    commands:
+      - echo "Install phase started on $(date)"
  pre_build:
     commands:
       - echo Logging in to Docker Hub...
