@@ -21,3 +21,5 @@ phases:
       - docker images
       - echo Running the Docker image...
       - docker run helloworld
+      - docker container ls
+      - curl http://localhost
